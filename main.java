@@ -24,6 +24,7 @@ public class main {
         System.out.println("------------------\n");
 
 
+        
         System.out.println("--- Pedido 2 ---");
         Pedido pedido2 = new Pedido(LocalDate.now(), cliente1, new PagamentoCartaoCredito());
         pedido2.adicionarItem(notebook, 1);
